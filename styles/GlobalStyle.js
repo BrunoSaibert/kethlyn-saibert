@@ -45,6 +45,6 @@ export default createGlobalStyle`
   }
 
   main {
-    margin-top: 5rem;
+    margin-top: 4rem;
   }
 `;

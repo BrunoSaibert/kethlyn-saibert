@@ -21,33 +21,35 @@ function Header({ theme, themeToggler }) {
   }, [router.asPath]);
 
   return (
-    <S.Container className={active ? "active" : ""}>
-      <Link href="/">
-        <a>
-          <Title as="span" size="medium">
-            {config.site.title}
-          </Title>
-        </a>
-      </Link>
+    <S.Container>
+      <S.Header className={active ? "active" : ""}>
+        <Link href="/">
+          <a>
+            <Title as="span" size="medium">
+              {config.site.title}
+            </Title>
+          </a>
+        </Link>
 
-      <Burger active={active} onClick={() => setActive(!active)} />
+        <Burger active={active} onClick={() => setActive(!active)} />
 
-      <nav>
-        <S.Toggle onClick={themeToggler} isDark={theme === "light"} />
+        <nav>
+          <S.Toggle onClick={themeToggler} isDark={theme === "light"} />
 
-        <ul>
-          <li>
-            <Link href="/">
-              <a>Início</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/sobre">
-              <a>Sobre</a>
-            </Link>
-          </li>
-        </ul>
-      </nav>
+          <ul>
+            <li>
+              <Link href="/">
+                <a>Início</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/sobre">
+                <a>Sobre</a>
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      </S.Header>
     </S.Container>
   );
 }

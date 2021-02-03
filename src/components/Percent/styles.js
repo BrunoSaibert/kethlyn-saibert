@@ -10,4 +10,5 @@ export const Container = styled(motion.div)`
   background: ${(props) => props.theme.primary};
 
   height: 4px;
+  z-index: 99;
 `;

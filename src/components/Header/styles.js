@@ -1,17 +1,24 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
-  max-width: 1200px;
-  height: 4rem;
-  margin: auto;
-  padding: 0 2rem;
-  background: ${({ theme }) => theme.body};
-  transition: all 0.3s ease-in-out 0s;
-
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+
+  background: ${({ theme }) => theme.header};
+  width: 100%;
+  height: 4rem;
+
+  z-index: 2;
+`;
+
+export const Header = styled.header`
+  max-width: 1200px;
+  height: 4rem;
+  margin: auto;
+  padding: 0 2rem;
+  transition: all 0.3s ease-in-out 0s;
 
   display: flex;
   align-items: center;
@@ -71,8 +78,6 @@ export const Container = styled.header`
 
         transform: translateY(100%);
         /* transition: opacity 200ms; */
-
-        z-index: 2;
 
         ul {
           flex-direction: column;

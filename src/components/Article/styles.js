@@ -20,8 +20,8 @@ export const Header = styled(motion.header)`
   flex-direction: column;
 
   max-width: 768px;
-  margin: 3rem auto;
-  padding: 0 2rem;
+  margin: 0 auto;
+  padding: 3rem 2rem;
 
   @media (max-width: 800px) {
     margin: 0 auto 1rem;
