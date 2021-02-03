@@ -14,7 +14,7 @@ const containerVariants = {
 
 const childVariants = {
   hidden: {
-    x: -100,
+    x: -200,
     opacity: 0,
   },
   visible: {

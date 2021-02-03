@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 export const Container = styled(motion.section)`
   display: flex;
   flex-wrap: wrap;
+
+  padding: 2rem 0;
 `;
 
 export const Card = styled(motion.article)`
