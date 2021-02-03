@@ -47,7 +47,9 @@ export default function Home({ post }) {
           </Article>
 
           <div style={{ padding: "0 2rem", maxWidth: 768, margin: "0 auto" }}>
-            <p style={{ marginBottom: "1rem" }}>Compartilhe essa postagem</p>
+            <p style={{ marginBottom: "0.5rem", fontWeight: "bold" }}>
+              Compartilhe essa postagem
+            </p>
             <Share url={`/posts/${post.slug}`} title={post.title} />
           </div>
 
