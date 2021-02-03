@@ -1,0 +1,39 @@
+{
+  "site": {
+    "title": "Kethlyn Saibert",
+    "description": "Estágiaria de redação na Central de Notícias Uninter. Formada em Tecnologia em Produção Multimídia pela Faculdade Opet (2016) e cursando Jornalismo pelo Centro Universitário Internacional Uninter (2019 - 2023).",
+    "url": "https://kethlynsaibert.com.br/"
+  },
+  "author": {
+    "avatar": "/images/upload/avatar.jpg",
+    "name": "Kethlyn Saibert",
+    "bio": "Sou estudante de jornalismo e estou no 4° período. Já produzi para rádio, web e impresso. Atualmente sou estagiária de redação. Adoro tudo que envolve mídias e cultura pop. Amo cinema, música e fotografia. Sou vegetariana e louca dos gatos, movida pelos sonhos e pela cafeína."
+  },
+  "social": [
+    {
+      "title": "LinkedIn",
+      "url": "https://www.linkedin.com/in/kethlyn-tavares-saibert/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "title": "Instagram",
+      "url": "https://www.instagram.com/kettavs/",
+      "icon": "FaInstagram"
+    },
+    {
+      "title": "Whatsapp",
+      "url": "https://api.whatsapp.com/send?phone=5541987714545",
+      "icon": "FaWhatsapp"
+    },
+    {
+      "title": "Twitter",
+      "url": "https://twitter.com/kettavss",
+      "icon": "FaTwitter"
+    },
+    {
+      "title": "E-mail",
+      "url": "mailto:kethlyntavares96@gmail.com",
+      "icon": "FaEnvelope"
+    }
+  ]
+}
