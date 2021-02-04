@@ -11,7 +11,7 @@ tags:
   - Uninter
 ---
 
-**_Reportagem publicada originalmente na [Central de Notícias Uninter](30-anos-do-eca-um-marco-de-conquistas-e-novos-desafios)._**
+**_Reportagem publicada originalmente na [Central de Notícias Uninter](https://www.uninter.com/noticias/por-que-os-clubes-de-assinaturas-se-tornaram-uma-tendencia-de-mercado)._**
 
 O ramo de clubes de assinaturas começou a ganhar espaço no mercado brasileiro em 2011. Quando surgiu, havia muitas incertezas quanto à viabilidade desse tipo de segmento no país. Hoje, os clubes de assinaturas já são uma realidade. De acordo com Associação Brasileira de Comércio Eletrônico (ABComm), o setor movimenta no Brasil R$ 1 bilhão por ano, enquanto nos Estados Unidos – onde o serviço está consolidado – arrecada US$ 10 bilhões.
 

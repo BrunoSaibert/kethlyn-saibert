@@ -11,7 +11,7 @@ tags:
   - Uninter
 ---
 
-**_Reportagem publicada originalmente na [Central de Notícias Uninter](30-anos-do-eca-um-marco-de-conquistas-e-novos-desafios)._**
+**_Reportagem publicada originalmente na [Central de Notícias Uninter](https://www.uninter.com/noticias/30-anos-do-eca-um-marco-de-conquistas-e-novos-desafios)._**
 
 O Estatuto da Criança e do Adolescente (ECA) completou 30 anos no dia 13 de julho. A lei é um marco na história dos direitos humanos no Brasil. Promulgado em 1990, o artigo 227 diz que “é dever da família, da sociedade e do Estado assegurar à criança, ao adolescente e ao jovem, com absoluta prioridade, o direito à vida, à saúde, à alimentação, à educação, ao lazer, à profissionalização, à cultura, à dignidade, ao respeito, à liberdade e à convivência familiar e comunitária, além de colocá-los a salvo de toda forma de negligência, discriminação, exploração, violência, crueldade e opressão”.
 
