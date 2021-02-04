@@ -49,7 +49,10 @@ export default function Tag({ slug, tag, posts }) {
             animate="visible"
             exit="hidden"
           >
-            <Title style={{ padding: "0 2rem" }} variants={childVariants}>
+            <Title
+              style={{ padding: "0 2rem", flex: "100%" }}
+              variants={childVariants}
+            >
               {posts.length} {posts.length === 1 ? "postagem" : "postagens"} com
               a tag <big>"{tag}"</big>
             </Title>

@@ -5,6 +5,8 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
 
+  margin-top: 1rem;
+
   @media (min-width: 600px) {
     justify-content: flex-start;
   }
@@ -12,11 +14,11 @@ export const Container = styled.div`
   a {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 1rem 1rem 0 0;
+    justify-content: space-around;
+    margin: 10px;
 
     @media (min-width: 600px) {
-      margin: 1rem;
+      margin: 0 1rem 0 0;
     }
   }
 `;

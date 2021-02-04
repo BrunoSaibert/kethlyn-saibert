@@ -43,6 +43,13 @@ function Article({ children, header, tags, thumbnail }) {
       <S.Content variants={childVariants}>{children}</S.Content>
 
       <S.Tags>
+        <p
+          style={{
+            fontWeight: "bold",
+          }}
+        >
+          Tags da postagem:
+        </p>
         {tags && (
           <TagList>
             {tags.sort().map((tag) => (

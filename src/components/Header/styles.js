@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.header`
+export const Container = styled.section`
   position: fixed;
   top: 0;
   left: 0;
@@ -15,7 +15,7 @@ export const Container = styled.header`
 
 export const Header = styled.header`
   max-width: 1200px;
-  height: 4rem;
+  height: 100%;
   margin: auto;
   padding: 0 2rem;
   transition: all 0.3s ease-in-out 0s;

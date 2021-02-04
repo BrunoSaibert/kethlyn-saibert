@@ -7,16 +7,22 @@ export const Container = styled(motion.section)`
   flex-direction: column;
 
   ${(props) =>
-    props.full
-      ? css`
-          height: calc(100vh - 5rem);
-        `
-      : css`
-          max-width: 768px;
-          margin: 3rem auto;
-        `};
+    props.hasBackground &&
+    css`
+      background: ${({ theme }) => theme.header};
+      color: ${({ theme }) => theme.text};
+      border-radius: 8px;
+    `};
 
-  padding: 0 2rem;
+  ${(props) =>
+    props.full &&
+    css`
+      height: calc(100vh - 5rem);
+    `};
+
+  max-width: 768px;
+  margin: 1rem auto;
+  padding: 2rem;
 
   .avatar {
     width: 50%;
@@ -30,6 +36,10 @@ export const Container = styled(motion.section)`
   .content {
     text-align: center;
 
+    & * {
+      max-width: 100%;
+    }
+
     h4 {
       margin: 1rem 0 0.5rem;
     }
@@ -37,6 +47,7 @@ export const Container = styled(motion.section)`
 
   @media (min-width: 600px) {
     flex-direction: row;
+    padding: 2rem;
 
     .avatar {
       width: 100%;

@@ -46,14 +46,16 @@ export default function Home({ post }) {
             <div dangerouslySetInnerHTML={{ __html: post.content }} />
           </Article>
 
-          <div style={{ padding: "0 2rem", maxWidth: 768, margin: "0 auto" }}>
+          <div
+            style={{ padding: "2rem 2rem 0", maxWidth: 768, margin: "0 auto" }}
+          >
             <p style={{ marginBottom: "0.5rem", fontWeight: "bold" }}>
               Compartilhe essa postagem:
             </p>
             <Share url={`/posts/${post.slug}`} title={post.title} />
           </div>
 
-          <Bio />
+          <Bio hasBackground />
         </>
       )}
     </div>

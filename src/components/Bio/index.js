@@ -14,7 +14,7 @@ function Bio({ ...props }) {
         <img src={config.author.avatar} />
       </div>
       <div className="content">
-        <Title as="h4" weight="bold">
+        <Title as="h4" weight="bold" style={{ marginTop: 0 }}>
           {config.author.name}
         </Title>
         <Text>{config.author.bio}</Text>

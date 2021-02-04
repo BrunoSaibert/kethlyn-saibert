@@ -52,9 +52,14 @@ export const Content = styled(motion.section)`
   padding: 0 2rem;
 
   & {
-    p {
+    p,
+    ul {
       margin-bottom: 3rem;
       line-height: 2;
+    }
+
+    ul {
+      margin-left: 20px;
     }
 
     a {
@@ -62,6 +67,7 @@ export const Content = styled(motion.section)`
       text-decoration: none;
       display: inline-block;
       border-bottom: 2px solid #ccc;
+      font-weight: bold;
 
       &:hover {
         border-color: ${({ theme }) => theme.primary};
