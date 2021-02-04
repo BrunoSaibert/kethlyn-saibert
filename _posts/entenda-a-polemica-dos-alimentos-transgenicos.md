@@ -1,5 +1,5 @@
 ---
-title: "Entenda a polêmica dos alimentos transgênicos"
+title: Entenda a polêmica dos alimentos transgênicos
 excerpt: false
 date: "2020-10-21"
 coverImage: "/images/upload/entenda-a-polemica-dos-alimentos-transgenicos.jpg"

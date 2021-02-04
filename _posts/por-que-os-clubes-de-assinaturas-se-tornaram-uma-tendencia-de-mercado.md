@@ -1,5 +1,5 @@
 ---
-title: "Por que os clubes de assinaturas se tornaram uma tendência de mercado?"
+title: Por que os clubes de assinaturas se tornaram uma tendência de mercado?
 excerpt: false
 date: "2020-08-27"
 coverImage: "/images/upload/por-que-os-clubes-de-assinaturas-se-tornaram-uma-tendencia-de-mercado.jpg"

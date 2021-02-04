@@ -1,5 +1,5 @@
 ---
-title: "Pandemia agrava desigualdade de gênero no mercado de trabalho"
+title: Pandemia agrava desigualdade de gênero no mercado de trabalho
 excerpt: false
 date: "2020-09-28"
 coverImage: "/images/upload/pandemia-agrava-desigualdade-de-genero-no-mercado-de-trabalho.jpg"

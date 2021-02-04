@@ -1,5 +1,5 @@
 ---
-title: "A importância da arquitetura sustentável na saúde e bem-estar"
+title: A importância da arquitetura sustentável na saúde e bem-estar
 excerpt: false
 date: "2020-09-17"
 coverImage: "/images/upload/a-importancia-da-arquitetura-sustentavel-na-saude-e-bem-estar.jpg"

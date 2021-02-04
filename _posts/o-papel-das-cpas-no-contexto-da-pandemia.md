@@ -1,6 +1,5 @@
 ---
-title: "No Setembro Amarelo, polo de Iporã promove evento sobre saúde mental
-"
+title: O papel das CPAs no contexto da pandemia
 excerpt: false
 date: "2020-10-19"
 coverImage: "/images/upload/o-papel-das-cpas-no-contexto-da-pandemia.jpg"

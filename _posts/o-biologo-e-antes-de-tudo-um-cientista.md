@@ -1,6 +1,5 @@
 ---
-title: "O biólogo é, antes de tudo, um cientista
-"
+title: O biólogo é, antes de tudo, um cientista
 excerpt: false
 date: "2020-09-24"
 coverImage: "/images/upload/o-biologo-e-antes-de-tudo-um-cientista.jpg"
