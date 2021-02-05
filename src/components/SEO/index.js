@@ -21,7 +21,7 @@ function SEO({
       <meta name="description" content={description} />
 
       <meta property="og:locale" content="pt_BR" />
-      <meta property="og:site_name" content="BrunoQuiz" />
+      <meta property="og:site_name" content={title} />
 
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
