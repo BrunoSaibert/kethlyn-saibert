@@ -13,9 +13,10 @@ function MyApp({ Component, pageProps, router }) {
   useEffect(() => {
     const storageTheme = localStorage.getItem("theme");
 
-    console.log("storageTheme", storageTheme);
     if (storageTheme) {
-      setTheme(storageTheme);
+      setTimeout(() => {
+        setTheme(String(storageTheme));
+      }, 200);
     }
   }, []);
 
