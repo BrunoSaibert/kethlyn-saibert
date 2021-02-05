@@ -34,7 +34,11 @@ function Header({ theme, themeToggler }) {
         <Burger active={active} onClick={() => setActive(!active)} />
 
         <nav>
-          <S.Toggle onClick={themeToggler} isDark={theme === "light"} />
+          <S.ToggleWrapper>
+            🌞
+            <S.Toggle onClick={themeToggler} isDark={theme === "light"} />
+            🌛
+          </S.ToggleWrapper>
 
           <ul>
             <li>
