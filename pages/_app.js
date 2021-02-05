@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { ThemeProvider } from "styled-components";
 import { AnimatePresence } from "framer-motion";
 
@@ -10,9 +10,23 @@ import { lightTheme, darkTheme } from "../styles/Themes";
 function MyApp({ Component, pageProps, router }) {
   const [theme, setTheme] = useState("light");
 
-  const themeToggler = () => {
-    theme === "light" ? setTheme("dark") : setTheme("light");
-  };
+  useEffect(() => {
+    const storageTheme = localStorage.getItem("theme");
+
+    if (storageTheme) {
+      setTimeout(() => {
+        setTheme(String(storageTheme));
+      }, 200);
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem("theme", theme);
+  }, [theme]);
+
+  const themeToggler = useCallback(() => {
+    setTheme(theme === "light" ? "dark" : "light");
+  });
 
   return (
     <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>

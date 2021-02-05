@@ -109,6 +109,12 @@ export const Header = styled.header`
   }
 `;
 
+export const ToggleWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
+`;
+
 export const Toggle = styled.div`
   cursor: pointer;
   position: relative;
@@ -119,13 +125,15 @@ export const Toggle = styled.div`
   background: ${({ theme }) => theme.text};
   transition: background 0.3s ease;
 
+  margin: 0 10px;
+
   &::before {
     content: "";
 
     display: block;
     position: absolute;
     top: -5px;
-    left: ${(props) => (props.isDark ? "-5px" : "20px")};
+    left: ${(props) => (props.isDark ? "-5px" : "15px")};
 
     transition: left 0.3s ease;
 
