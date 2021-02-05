@@ -62,6 +62,21 @@ export default function Home({ post }) {
   );
 }
 
+export async function getStaticPaths() {
+  const posts = getAllPosts(["slug"]);
+
+  return {
+    paths: posts.map((post) => {
+      return {
+        params: {
+          slug: post.slug,
+        },
+      };
+    }),
+    fallback: "blocking",
+  };
+}
+
 export async function getStaticProps({ params }) {
   const post = getPostBySlug(params.slug, [
     "slug",
@@ -77,20 +92,6 @@ export async function getStaticProps({ params }) {
     props: {
       post,
     },
-  };
-}
-
-export async function getStaticPaths() {
-  const posts = getAllPosts(["slug"]);
-
-  return {
-    paths: posts.map((post) => {
-      return {
-        params: {
-          slug: post.slug,
-        },
-      };
-    }),
-    fallback: false,
+    revalidate: 60,
   };
 }

@@ -71,6 +71,21 @@ export default function Tag({ slug, tag, posts }) {
   );
 }
 
+export async function getStaticPaths() {
+  const tags = getAllTags();
+
+  return {
+    paths: tags.map((tag) => {
+      return {
+        params: {
+          slug: tag.slug,
+        },
+      };
+    }),
+    fallback: "blocking",
+  };
+}
+
 export async function getStaticProps({ params }) {
   const { posts, tag } = getPostsByTag(params.slug, [
     "slug",
@@ -87,20 +102,6 @@ export async function getStaticProps({ params }) {
       tag,
       posts,
     },
-  };
-}
-
-export async function getStaticPaths() {
-  const tags = getAllTags();
-
-  return {
-    paths: tags.map((tag) => {
-      return {
-        params: {
-          slug: tag.slug,
-        },
-      };
-    }),
-    fallback: false,
+    revalidate: 60,
   };
 }
